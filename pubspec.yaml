@@ -1,0 +1,25 @@
+name: latihan
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencies yang Anda gunakan
+  cupertino_icons: ^1.0.2
+  dotted_line: 3.2.3   # Tambahkan dependensi `dotted_line` di sini
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
